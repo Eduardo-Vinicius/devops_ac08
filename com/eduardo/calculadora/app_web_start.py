@@ -2,7 +2,7 @@ from flask import Flask
 
 APP = Flask(__name__)
 
-@app.route('/')
+@APP.route('/')
 
 def index():
     '''
@@ -11,4 +11,4 @@ def index():
     return 'Index Page!'
 
 if __name__ == '__main__':
-    app.run()
+    APP.run()
