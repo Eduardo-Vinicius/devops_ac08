@@ -6,5 +6,4 @@ before_install:
 - python --version
 - pip install -r requirements.txt
 script:
-- pylint_runner
 - pytest --cov=com.eduardo com/eduardo/calculadora/test
