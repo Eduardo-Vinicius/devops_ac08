@@ -2,7 +2,7 @@
 Operações
 '''
 
-from com.eduardodavi.calcula_parcela import valor_pagamento
+from com.eduardo.calculadora.calcula_parcela import valor_pagamento
 
 
 def test_pagamento():
